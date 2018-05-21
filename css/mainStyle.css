@@ -1,0 +1,183 @@
+/* -----------------------------------
+        Penned by Kurtis Bradley
+------------------------------------*/
+
+
+/* -----------------------------------
+            General Styles
+------------------------------------*/
+.container{
+  background-color: #ffd9d9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-danger{
+  color: #ececec;
+  box-shadow: 2px 2px 5px grey;
+}
+
+h2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+a h2{
+  text-decoration: none;
+  color: #ececec;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #ececec;
+}
+
+/* -----------------------------------
+          Section Headers
+------------------------------------*/
+.header-2{
+  background-color: #dc3545;
+  color: #ececec;
+  box-shadow: 2px 2px 5px grey;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.header-2:hover{
+  background-color: #dc3545;
+  box-shadow: inset 5px 5px 5px #af2a38;
+}
+
+/* -----------------------------------
+               NavBar
+------------------------------------*/
+.container .navbar{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+h3{
+  color: #ececec;
+  text-shadow:  1px 1px 7px rgb(70, 70, 70);
+}
+
+.navbar{
+  position: fixed;
+  margin-left: -15px;
+  z-index: 2000;
+}
+
+nav .btn{
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+  width: 8rem;
+}
+
+/* About */
+.jumbotron{
+  padding-top: 10rem;
+}
+
+/* -----------------------------------
+              Tools
+------------------------------------*/
+.panel-group{
+  padding-bottom: 2rem;
+}
+
+.col-sm{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.col-sm a{
+  text-decoration: none;
+  color: #111;
+}
+
+.bg-danger .col-sm a{
+  text-decoration: none;
+  color: #ececec;
+}
+
+svg {
+  height: 150px;
+  width: 150px;
+}
+
+svg path { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+/* SVG Icons */
+/* HTML5 */
+a:hover svg #htmlm{ 
+  fill: #a100a1;
+}
+
+a:hover svg #htmls{ 
+  fill: #c700c7;
+}
+
+/* CSS3 */
+a:hover svg #cssm{ 
+  fill: #1ba100;
+}
+
+a:hover svg #csss{ 
+  fill: #00c700;
+}
+
+/* JS */
+a:hover svg #jsm{ 
+  fill: #e4a700;
+}
+
+/* -----------------------------------
+              Projects
+------------------------------------*/
+
+
+/* -----------------------------------
+              Contact
+------------------------------------*/
+#contact form{
+  padding-top: .5rem;
+}
+
+#contact label{
+  margin-top: .5rem;
+}
+
+/* -----------------------------------
+              Footer
+------------------------------------*/
+footer{
+  border-top: 2px solid #0e0e0e;
+  padding-bottom: 0.5rem;
+}
+
+footer ul{
+  padding-top: 0.5rem;
+}
+
+footer a{
+  text-align: center;
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #dc3545;
+}
+
+footer small{
+  float: right;
+  padding-top: 0.5rem;
+}
