@@ -181,3 +181,13 @@ footer small{
   float: right;
   padding-top: 0.5rem;
 }
+
+/* -----------------------------------
+            Media Queries
+------------------------------------*/
+
+@media only screen and (max-width: 600px){
+  .header-2{
+    font-size: 1.5rem;
+  }
+}
