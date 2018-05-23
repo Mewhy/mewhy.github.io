@@ -6,13 +6,20 @@
 /* -----------------------------------
             General Styles
 ------------------------------------*/
+:root{
+  --pri-color: #dc3545;
+  --sec-color: ;
+  --ter-color: ;
+  --acc-color: #ececec;
+}
+
 .container{
-  background-color: #ffd9d9;
+  background-color: var(--acc-color);
   font-family: 'Montserrat', sans-serif;
 }
 
 .bg-danger{
-  color: #ececec;
+  color: var(--acc-color);
   box-shadow: 2px 2px 5px grey;
 }
 
@@ -24,20 +31,20 @@ h2{
 
 a h2{
   text-decoration: none;
-  color: #ececec;
+  color: var(--acc-color);
 }
 
 a:hover{
   text-decoration: none;
-  color: #ececec;
+  color: var(--acc-color);
 }
 
 /* -----------------------------------
           Section Headers
 ------------------------------------*/
 .header-2{
-  background-color: #dc3545;
-  color: #ececec;
+  background-color: var(--pri-color);
+  color: var(--acc-color);
   box-shadow: 2px 2px 5px grey;
   transition: 200ms;
   transition-timing-function: ease-in-out;
@@ -46,7 +53,7 @@ a:hover{
 }
 
 .header-2:hover{
-  background-color: #dc3545;
+  background-color: var(--pri-color);
   box-shadow: inset 5px 5px 5px #af2a38;
 }
 
@@ -59,7 +66,7 @@ a:hover{
 }
 
 h3{
-  color: #ececec;
+  color: var(--acc-color);
   text-shadow:  1px 1px 7px rgb(70, 70, 70);
 }
 
@@ -99,7 +106,7 @@ nav .btn{
 
 .bg-danger .col-sm a{
   text-decoration: none;
-  color: #ececec;
+  color: var(--acc-color);
 }
 
 svg {
@@ -174,7 +181,7 @@ footer a{
 
 footer a:hover{
   text-decoration: none;
-  color: #dc3545;
+  color: var(--pri-color);
 }
 
 footer small{
